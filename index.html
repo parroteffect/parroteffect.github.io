@@ -1,13 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dongkuk Si</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dongkuk Si</title>
+  <meta name="description" content="Dongkuk Si — Deep Learning Research Engineer">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>Hello, I'm Dongkuk Si!</p>
-  <p>My homepage has been moved <a href="https://dongkuksi.notion.site/Dongkuk-Si-826580ca76a04aab8c2722a22ca00741" style="color:red">here</a></p>
+
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">Dongkuk Si</a>
+      <div class="links">
+        <a href="#interests">Interests</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Dongkuk Si</h1>
+      <p class="role">Deep Learning Research Engineer at <strong>Mobilint, Inc.</strong></p>
+      <p class="intro">
+        I investigate the frontiers of efficient Deep Learning, with a main interest
+        in efficient inference on LLMs.
+      </p>
+      <div class="social">
+        <a href="mailto:parroteffect@gmail.com">
+          <svg viewBox="0 0 16 16"><path d="M1.5 3h13c.28 0 .5.22.5.5v.5L8 8.5 .5 4v-.5c0-.28.22-.5.5-.5zM.5 5.5L8 10l7.5-4.5V12c0 .55-.45 1-1 1h-13c-.55 0-1-.45-1-1V5.5z"/></svg>
+          Email
+        </a>
+        <a href="https://github.com/parroteffect" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+        <a href="https://scholar.google.com/citations?user=" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16"><path d="M8 0L0 6l3 2v5c0 1.1 2.2 3 5 3s5-1.9 5-3V8l1.5-1V12h1.5V6L8 0zM8 10.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>
+          Scholar
+        </a>
+      </div>
+    </section>
+
+    <!-- INTERESTS -->
+    <section id="interests" class="fade-in">
+      <div class="section-label">Research Interests</div>
+      <div class="tags">
+        <span class="tag">Post-Training Quantization</span>
+        <span class="tag">Quantization-Aware Training</span>
+        <span class="tag">Speculative Decoding</span>
+        <span class="tag">KV Cache Eviction</span>
+        <span class="tag">Diffusion Language Models</span>
+        <span class="tag">Efficient Attention Structure</span>
+        <span class="tag">Deep Learning Theory</span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="fade-in">
+      <div class="section-label">Experience</div>
+      <div class="entry">
+        <div class="date">2024.03 — Now</div>
+        <div class="info">
+          <h3>Deep Learning Research Engineer</h3>
+          <div class="org">Mobilint, Inc.</div>
+          <p>Alternative military service</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="fade-in">
+      <div class="section-label">Education</div>
+      <div class="entry">
+        <div class="date">2022.03 — 2024.02</div>
+        <div class="info">
+          <h3>MSc in Artificial Intelligence</h3>
+          <div class="org">KAIST</div>
+          <p>Advisor: <a href="https://chulheeyun.github.io/" target="_blank" rel="noopener">Prof. Chulhee Yun</a></p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="date">2018.03 — 2022.02</div>
+        <div class="info">
+          <h3>BSc in Electrical Engineering and Computer Science</h3>
+          <div class="org">GIST</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="fade-in">
+      <div class="section-label">Publications</div>
+      <div class="pub">
+        <h3><a href="https://arxiv.org/abs/2603.08290" target="_blank" rel="noopener">Minor First, Major Last: A Depth-Induced Implicit Bias of Sharpness-Aware Minimization</a></h3>
+        <div class="authors">Chaewon Moon, <strong>Dongkuk Si</strong>, Chulhee Yun</div>
+        <div class="venue">ICLR 2026</div>
+      </div>
+      <div class="pub">
+        <h3><a href="https://arxiv.org/abs/2306.09850" target="_blank" rel="noopener">Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima</a></h3>
+        <div class="authors"><strong>Dongkuk Si</strong>, Chulhee Yun</div>
+        <div class="venue">NeurIPS 2023 <span class="badge">Spotlight</span></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="fade-in">
+      <div class="section-label">Projects</div>
+      <div class="pub">
+        <h3>Efficient LLM Suite</h3>
+        <div class="venue">TBD</div>
+      </div>
+      <div class="pub">
+        <h3>Efficient KV Cache Eviction</h3>
+        <div class="venue">TBD</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="fade-in">
+      <div class="section-label">Contact</div>
+      <p class="contact-intro">Feel free to reach out!</p>
+      <div class="contact-row">
+        <div class="contact-item">
+          <svg viewBox="0 0 16 16"><path d="M1.5 3h13c.28 0 .5.22.5.5v.5L8 8.5 .5 4v-.5c0-.28.22-.5.5-.5zM.5 5.5L8 10l7.5-4.5V12c0 .55-.45 1-1 1h-13c-.55 0-1-.45-1-1V5.5z"/></svg>
+          <a href="mailto:parroteffect@gmail.com">parroteffect@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 16 16"><path d="M8 0a5.53 5.53 0 00-5.5 5.5c0 4.13 5.5 10.5 5.5 10.5s5.5-6.37 5.5-10.5A5.53 5.53 0 008 0zm0 7.5a2 2 0 110-4 2 2 0 010 4z"/></svg>
+          Seoul, Korea
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Dongkuk Si</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
